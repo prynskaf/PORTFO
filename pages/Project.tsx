@@ -1,6 +1,7 @@
 import Card from "@/components/Card";
 import becodeqanda from "@/public/assets/becode.png";
 import weatherApp from "@/public/assets/weatherApp.png";
+import ecommerce from "@/public/assets/ecommerce.png";
 
 const Project = () => {
   return (
@@ -29,6 +30,18 @@ const Project = () => {
         stackTwo="Tailwind CSS"
         imgSrc={becodeqanda}
         imgAlt="becodeqanda"
+      />
+      <Card
+        title="Ecommerce Filtering App"
+        description="Welcome to our React-based e-commerce website! This project allows users to explore a variety of products, 
+        filter items based on product names, and easily find the desired results."
+        demoLink=""
+        codeLink="https://github.com/prynskaf/ecommerce-filtering"
+        stackOne="React"
+        stackTwo="Vanilla CSS"
+        imgSrc={ecommerce}
+        imgAlt="ecommerce"
+        className=""
       />
       <Card
         title="Weather Application"
