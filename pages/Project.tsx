@@ -35,7 +35,7 @@ const Project = () => {
         title="Ecommerce Filtering App"
         description="Welcome to our React-based e-commerce website! This project allows users to explore a variety of products, 
         filter items based on product names, and easily find the desired results."
-        demoLink=""
+        demoLink="https://magnificent-banoffee-e2bd6b.netlify.app/"
         codeLink="https://github.com/prynskaf/ecommerce-filtering"
         stackOne="React"
         stackTwo="Vanilla CSS"
