@@ -3,6 +3,7 @@ import becodeqanda from "@/public/assets/becode.png";
 import weatherApp from "@/public/assets/weatherApp.png";
 import ecommerce from "@/public/assets/ecommerce.png";
 import carrents from "@/public/assets/carrents.png";
+import bednblues from "@/public/assets/bednblues.png";
 
 const Project = () => {
   return (
@@ -69,6 +70,21 @@ const Project = () => {
         stackTwo="Vanilla CSS"
         imgSrc={weatherApp}
         imgAlt="weatherApp"
+        className="md:flex-row-reverse"
+      />
+      <Card
+        title="Bed'N Blues HOTEL"
+        description="Discover comfort and elegance at Bed'n Blue Hotel. 
+        As part of my portfolio, this static website offers a snapshot of our 
+        inviting rooms, transparent pricing, and streamlined booking process 
+        connected through the Booking.com API. Experience hospitality 
+        at its finest—welcome to Bed'n Blue Hotel! 🌟"
+        demoLink="https://sad-banach-0a9477.netlify.app/"
+        codeLink="https://github.com/prynskaf/bednblues"
+        stackOne="Vanilla JS"
+        stackTwo="Vanilla CSS"
+        imgSrc={bednblues}
+        imgAlt="bednblues"
         className="md:flex-row-reverse"
       />
     </section>
