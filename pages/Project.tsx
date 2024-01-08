@@ -2,6 +2,7 @@ import Card from "@/components/Card";
 import becodeqanda from "@/public/assets/becode.png";
 import weatherApp from "@/public/assets/weatherApp.png";
 import ecommerce from "@/public/assets/ecommerce.png";
+import carrents from "@/public/assets/carrents.png";
 
 const Project = () => {
   return (
@@ -20,16 +21,17 @@ const Project = () => {
         </h1>
       </div>
       <Card
-        title="Becodeqanda"
-        description="BeCodeQanda is a web application that provides a platform for users to participate in quizzes.
-        Users can register and join quizzes, create their own quizzes, and view existing quizzes.
-        The app also includes a waiting page for users who have joined a quiz and are waiting for it to begin."
-        demoLink="https://whimsical-melomakarona-344a50.netlify.app/"
-        codeLink="https://github.com/nattyjojo/becodeqanda"
-        stackOne="React"
+        title="Car Rental App"
+        description="Experience the seamless blend of cutting-edge technology and user-friendly design with my 
+        Car Rental App. Built on the powerful Next.js framework and styled with the elegance of Tailwind CSS, 
+        this application brings car renting to a whole new level."
+        demoLink="https://car-rentals-pi.vercel.app/"
+        codeLink="https://github.com/prynskaf/car-rentals"
+        stackOne="Next Js || TypeScript"
         stackTwo="Tailwind CSS"
-        imgSrc={becodeqanda}
-        imgAlt="becodeqanda"
+        imgSrc={carrents}
+        imgAlt="carrents"
+        className=""
       />
       <Card
         title="Ecommerce Filtering App"
@@ -42,6 +44,18 @@ const Project = () => {
         imgSrc={ecommerce}
         imgAlt="ecommerce"
         className=""
+      />
+      <Card
+        title="Becodeqanda"
+        description="BeCodeQanda is a web application that provides a platform for users to participate in quizzes.
+        Users can register and join quizzes, create their own quizzes, and view existing quizzes.
+        The app also includes a waiting page for users who have joined a quiz and are waiting for it to begin."
+        demoLink="https://whimsical-melomakarona-344a50.netlify.app/"
+        codeLink="https://github.com/nattyjojo/becodeqanda"
+        stackOne="React"
+        stackTwo="Tailwind CSS"
+        imgSrc={becodeqanda}
+        imgAlt="becodeqanda"
       />
       <Card
         title="Weather Application"
