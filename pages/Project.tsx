@@ -1,9 +1,11 @@
 import Card from "@/components/Card";
-import becodeqanda from "@/public/assets/becode.png";
-import weatherApp from "@/public/assets/weatherApp.png";
+// import becodeqanda from "@/public/assets/becode.png";
+// import weatherApp from "@/public/assets/weatherApp.png";
 import ecommerce from "@/public/assets/ecommerce.png";
-import carrents from "@/public/assets/carrents.png";
+// import carrents from "@/public/assets/carrents.png";
 import bednblues from "@/public/assets/bednblues.png";
+import Notebook from "@/public/assets/Notebook.png";
+import socialConnect from "@/public/assets/socialConnect.png";
 
 const Project = () => {
   return (
@@ -22,6 +24,33 @@ const Project = () => {
         </h1>
       </div>
       <Card
+        title="Code Notebook"
+        description="Code Notebook: Developed a comprehensive note-taking application designed for developers to efficiently organize 
+        and manage coding insights, snippets, and resources. The application features rich text editing with TinyMCE, code highlighting through Monaco Editor, 
+        and seamless integration with a Zustand state management store and MongoDB. Users can create, edit, and delete notes, with real-time updates and a responsive design for optimal user experience. 
+        This project showcases my skills in React, TypeScript, and modern web development practices."
+        demoLink="https://notebook-two-zeta.vercel.app/"
+        codeLink="https://github.com/prynskaf/notebook"
+        stackOne="Next Js || TypeScript"
+        stackTwo="MongoDB"
+        imgSrc={Notebook}
+        imgAlt="Notebook"
+        className=""
+      />
+      <Card
+        title="SocialConnect"
+        description="This social connect app allows users to post updates and make comments, fostering community engagement and interaction. 
+        Built with React for the frontend and MongoDB for the backend, the application features clear authentication to ensure user security. 
+        While the UI design is a work in progress, the app delivers robust functionality, allowing users to seamlessly share their thoughts and connect with others."
+        demoLink="https://social-app-silk-nine.vercel.app/"
+        codeLink="https://github.com/prynskaf/SocialApp"
+        stackOne="React || TypeScript"
+        stackTwo="MongoDB"
+        imgSrc={socialConnect}
+        imgAlt="socialConnect"
+        className=""
+      />
+      {/* <Card
         title="Car Rental App"
         description="Experience the seamless blend of cutting-edge technology and user-friendly design with my 
         Car Rental App. Built on the powerful Next.js framework and styled with the elegance of Tailwind CSS, 
@@ -33,7 +62,7 @@ const Project = () => {
         imgSrc={carrents}
         imgAlt="carrents"
         className=""
-      />
+      /> */}
       <Card
         title="Ecommerce Filtering App"
         description="Welcome to our React-based e-commerce website! This project allows users to explore a variety of products, 
@@ -46,7 +75,7 @@ const Project = () => {
         imgAlt="ecommerce"
         className=""
       />
-      <Card
+      {/* <Card
         title="Becodeqanda"
         description="BeCodeQanda is a web application that provides a platform for users to participate in quizzes.
         Users can register and join quizzes, create their own quizzes, and view existing quizzes.
@@ -57,8 +86,8 @@ const Project = () => {
         stackTwo="Tailwind CSS"
         imgSrc={becodeqanda}
         imgAlt="becodeqanda"
-      />
-      <Card
+      /> */}
+      {/* <Card
         title="Weather Application"
         description=" Experience the weather like never before with my weather app! Get a 5-day forecast at your fingertips, 
         including temperature, humidity, and more. Stay informed and plan your week with ease, all powered by 
@@ -71,7 +100,7 @@ const Project = () => {
         imgSrc={weatherApp}
         imgAlt="weatherApp"
         className="md:flex-row-reverse"
-      />
+      /> */}
       <Card
         title="Bed'N Blues HOTEL"
         description="Discover comfort and elegance at Bed'n Blue Hotel. 

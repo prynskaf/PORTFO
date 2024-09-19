@@ -14,7 +14,7 @@
     "@types/codemirror": "^5.60.15",
     "codemirror": "^6.0.1",
     "framer-motion": "^10.16.5",
-    "next": "14.0.3",
+    "next": "^14.2.12",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-console-emulator": "^5.0.2",
