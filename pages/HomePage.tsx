@@ -15,7 +15,7 @@ const HomePge = () => {
     >
       <div className="min-w-lg md:pl-6 ">
         <h1 className="typed-out   font-extrabold text-center md:text-left text-xl  md:text-3xl">
-          <span className=" text-red-500 font-bold"> &lt;</span>Junior Front-End
+          <span className=" text-red-500 font-bold"> &lt;</span>Front-End
           Developer<span className="text-red-500">/&gt;</span>
         </h1>
         <p className="text-center md:text-start font-bold text-sm  p-3 flex-wrap md:text-lg md:max-w-[36em]">

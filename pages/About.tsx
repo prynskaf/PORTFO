@@ -26,11 +26,11 @@ const About = () => {
           A dedicated Front-end Developer based in Belgium, Brussels 📍
         </h1>
         <p className=" font-bold text-sm md:text-[1rem] md:max-w-3xl md:p-2">
-          As a Junior Front-End Developer, I specialize in crafting responsive
-          websites using HTML, CSS, JavaScript, React, Tailwind, Bootstrap, and
-          SASS. I've recently added Next.js to my toolkit, allowing me to build
-          dynamic and optimized web applications. In addition, I bring
-          experience in web design using Photoshop, Illustrator, and Adobe XD,
+          As a Front-End Developer, Im skilled in creating responsive, interactive web applications using React,
+          JavaScript/TypeScript, and CSS. Experienced in both frontend and backend
+          technologies, including MongoDB and PostgreSQL. Passionate about translating designs
+          into functional, user-friendly applications.
+          In addition, I bring experience in UI/UX design using Figma and 
           seamlessly integrating design elements into development. My clean and
           efficient coding practices ensure smooth user experiences across
           devices and browsers. I thrive in collaborative environments, working
