@@ -12,3 +12,5 @@ export function UIProviders({ children }: { children: React.ReactNode }) {
     </NextUIProvider>
   );
 }
+
+

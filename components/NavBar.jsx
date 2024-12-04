@@ -65,7 +65,8 @@ export default function NavBar() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
-            <ThemeSwitcher />
+            <ThemeSwitcher
+             />
           </NavbarItem>
         </NavbarContent>
         <NavbarMenu className=" flex justify-center items-center">

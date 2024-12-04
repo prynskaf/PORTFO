@@ -33,7 +33,7 @@ const Card = ({
     <section className="w-full flex justify-center">
       <div
         className="card  flex flex-col justify-center md:gap-40 md:max-w-6xl  
-        md:space-y-15  items-center gap-4  max-w-lg p-4 rounded-2xl shadow-large md:flex-row md:justify-around md:w-full "
+        md:space-y-15  items-center gap-4  max-w-lg p-4 rounded-2xl shadow-md md:flex-row md:justify-around md:w-full "
       >
         <div className="w-[100%] object-cover">
           <Image

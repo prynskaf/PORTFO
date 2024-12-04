@@ -6,6 +6,7 @@ import ecommerce from "@/public/assets/ecommerce.png";
 import bednblues from "@/public/assets/bednblues.png";
 import Notebook from "@/public/assets/Notebook.png";
 import socialConnect from "@/public/assets/socialConnect.png";
+import socialNew from "@/public/assets/socialNew.png";
 
 const Project = () => {
   return (
@@ -46,7 +47,7 @@ const Project = () => {
         codeLink="https://github.com/prynskaf/SocialApp"
         stackOne="React || TypeScript"
         stackTwo="MongoDB"
-        imgSrc={socialConnect}
+        imgSrc={socialNew}
         imgAlt="socialConnect"
         className=""
       />
